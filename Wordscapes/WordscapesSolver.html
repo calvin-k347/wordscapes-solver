@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordscapeSolver</title>
+    <link rel="stylesheet" href="WordscapeSolver.css">
+</head>
+<body >
+    <div id="backgrounds">
+        <div id="words" class="display">
+            <div id="display" type="text" readonly> </div>
+            </div>
+        <div id="letters">
+        <input id="one" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(0)">
+        <input id="two" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(1)">
+        <input id="three" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(2)">  
+        <input id="four" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(3)">
+        <input id="five" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(4)">
+        <input id="six" type="text"  maxlength="1" class="letterbox" oninput="inputPressed(5)">
+        </div>
+        <button id="noThreeLetters" onclick="noThreeLetters(status)">3</button>
+    </div>
+    <script src="WordscapesSolver.js"></script>
+</body>
+</html>
